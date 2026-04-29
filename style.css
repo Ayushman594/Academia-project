@@ -1,0 +1,118 @@
+.navbar{
+    background-color:rgb(64, 64, 64);
+    padding: 0;
+    height:8vh;
+}
+.navbar-icons{
+    padding: 0;
+    color:rgb(255, 255, 255);
+}
+.navbar-icons ul li:hover{
+    background-color:rgb(23, 23, 18);
+    cursor:pointer;
+}
+.color-greenyellow{
+    color:greenyellow;
+}
+.sectionimg img{
+    width:45vw;
+    height:90vh;
+}
+.intro button:hover{
+    background-color: white;
+    color:green;
+    border:none;
+}
+.intro h1,.intro p{
+    color:white;
+    text-shadow: 2px 2px 4px gray;
+}
+.bgcontainer2{
+    height:40vh;
+    color:rgb(0, 0, 0);
+    background-image: url(images/Background-image2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-container{
+    background-image:url(images/Background-image1.png);
+    padding-top: 30px;
+    height:100vh;
+}
+.btn-spacing{
+    margin-left:35%
+}
+.icon-bgcolor{
+    color:white;
+    height:9vh;
+    background-color: rgb(75, 209, 254);
+}
+.bi-star-fill,.bi-star-half{
+    color:rgb(75, 209, 254);
+}
+.icon1{
+    width:34px;
+    height:30px;
+    background-color: rgb(193, 210, 225);
+    opacity:0.7;
+    padding-left:10px;
+    padding-right: auto;
+}
+.icon1:hover{
+    background-color:blue;
+    color:white;
+    cursor:pointer
+}
+
+.navbar2 .navcontent{
+    color:rgb(100, 100, 100);
+}
+.navbar3{
+   width:97vw;
+   background-color: rgba(255, 255, 255, 0.4);
+}
+.navbar3 a{
+     color:rgb(0, 45, 245);
+}
+.navbar3 a:hover{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px gray;
+}
+.padding{
+  width:45px;
+  height:45px;
+
+}
+.skew-btn{
+   clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.grid{
+    display:grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: center;
+}
+.grid-item{
+    margin-bottom: 60px;
+    padding:30px;
+}
+.grid-item:hover{
+    color:white;
+    background-color:rgb(75, 209, 254);
+}
+.text-align-justify{
+    text-align: justify;
+}
+input[type="email"]{
+    outline:none;
+    width:20vw;
+    border:none;
+    color:white;
+    background:transparent;
+    border-bottom:4px solid white;
+}
+input[type="email"]::placeholder{
+    color:white;
+}
+
