@@ -156,19 +156,29 @@ input[type="email"]::placeholder{
         display:none;
     }
     .bgcontainer2{
+       display:flex;
+       flex-direction: column;
+       justify-content: center !important;
+       align-items: center !important;
        width:150vw;
+       height:80vh;
        padding-left:10px;
        padding-right: 10px;
     }
+    .bgcontainer2>div{
+        margin-bottom: 50px;
+    }
     .cardsection1{
-        justify-content: center !important;
+        width:150vw;
     }
-    .cardsection1 .justify-content-around{
-       display:flex;
-       flex-direction: column;
+    .courses{
+        width: 90vw !important;
+        margin-bottom: 30px;
     }
-    .justify-content-around div{
-        width:fit-content;
+    .courses-container{
+        display:flex;
+        flex-direction: column !important;
+        padding-left: 17%;
     }
 }
 
