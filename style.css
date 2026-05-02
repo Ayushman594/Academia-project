@@ -180,5 +180,61 @@ input[type="email"]::placeholder{
         flex-direction: column !important;
         padding-left: 17%;
     }
+    .cardsection2{
+        width:150vw;
+    }
+    .grid{
+        display:grid;
+        grid-template-columns: 45vw 45vw;
+        gap:40px;
+        margin-right: 40px;
+    }
+    .grid-item{
+        width:45vw;
+        padding:30px;
+    }
+    .review-section,.newsletter,.pricing-section,.blog-section{
+        width:150vw;
+    }
+    .pricing-section .container{
+        padding-left:27%;
+    }
+    .pricing-section .card{
+        margin-bottom: 30px;
+    }
+    .newsletter input{
+        width:50vw !important;
+    }
+    .input-section{
+        display:flex;
+    }
+    footer{
+        width:150vw;
+    }
+    footer .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .review-section .row{
+       display:flex;
+       flex-direction: column;
+       padding-left: 17%;
+    }
+    .blog-container{
+        display: flex;
+        flex-direction: column;
+        padding-left:17%;
+    }
+    .blog-container .card{
+        margin-bottom: 50px;
+    }
+    .row p a{
+        padding-left:0;
+        padding-right: 90px;
+    }
+    .review-section .col{
+        width:100vw;
+        margin-bottom: 30px;
+    }
 }
 
